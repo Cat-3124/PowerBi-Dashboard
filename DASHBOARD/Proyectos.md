@@ -20,7 +20,7 @@ Este panel de control interactivo ha sido diseñado para analizar y visualizar l
 ### 📖 Documentación Detallada
 Para comprender a fondo la metodología, el proceso de limpieza de datos y los insights descubiertos, por favor revisa el archivo técnico:
 
-📂 **[Ir a la explicación detallada](PowerBi-Dashoard/Explicaciones/Consumo_Energetico_Enosa.md)**
+📂 **[Ir a la explicación detallada]([PowerBi-Dashoard/Explicaciones/Consumo_Energetico_Enosa.md](https://github.com/Cat-3124/PowerBi-Dashboard/blob/main/Explicaciones%20/Consumo_Energetico_Enosa.md))**
 *(Haciendo clic arriba irás directo al detalle del proyecto)*
 
 
