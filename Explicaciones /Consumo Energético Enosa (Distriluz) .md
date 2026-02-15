@@ -1,43 +1,50 @@
-# 📊 Explicación del Dashboard: Consumo Energético Enosa (Distriluz)
+# 📊 Caso de Estudio: Análisis de Consumo Energético Enosa (Distriluz)
 
-Este proyecto tiene como objetivo analizar y visualizar los datos de consumo de energía eléctrica de los clientes de **Enosa**, bajo el grupo **Distriluz**. A continuación, se detallan los puntos clave del desarrollo:
-
----
-
-### 1. Objetivo del Análisis
-Identificar patrones de consumo, tendencias temporales y distribución geográfica de la demanda para optimizar la toma de decisiones operativa y comercial.
+Este proyecto analiza el comportamiento de la demanda eléctrica y la recaudación de **Enosa**, utilizando datos oficiales para el periodo **Enero - Junio 2025**.
 
 ---
 
-### 2. Proceso de Datos (ETL)
-
-* **Extracción:** Los datos fueron obtenidos de [Menciona aquí tu fuente, ej: Archivos Excel / CSV].
-* **Transformación (Power Query):**
-    * Limpieza de valores nulos y duplicados.
-    * Estandarización de formatos de fecha y categorías de clientes.
-    * Creación de columnas personalizadas para segmentación de consumo.
-* **Carga:** Los datos se estructuraron en un **modelo de estrella** para mejorar el rendimiento de las consultas y la eficiencia del reporte.
+### 1. Objetivo del Proyecto
+El objetivo principal es centralizar la información operativa para:
+* Monitorear la **recaudación total mensual**.
+* Analizar la **variación de consumo** (crecimiento o decrecimiento porcentual).
+* Identificar los distritos con mayor **demanda eléctrica**.
+* Aplicar el **Análisis de Pareto** para detectar las provincias que representan el mayor impacto en el negocio.
 
 ---
 
-### 3. Modelado y DAX
-Se implementaron medidas calculadas utilizando lenguaje **DAX** para obtener métricas clave como:
-
-* **Consumo Total (kWh):** Sumatoria del consumo en el periodo seleccionado.
-* **Variación Interanual:** Comparativa de consumo versus el año anterior (Year-over-Year).
-* **Promedio de Consumo por Cliente:** Segmentación por categoría tarifaria para identificar usuarios de alto impacto.
+### 2. Metodología y Datos (ETL)
+* **Fuente:** [Plataforma Nacional de Datos Abiertos del Perú](https://www.datosabiertos.gob.pe/dataset/consumo-energético-de-clientes-enosa-distriluz-dlz).
+* **Dataset:** Consumo energético de clientes ENOSA [Distriluz-DLZ].
+* **Proceso:** Limpieza de datos en Power Query, normalización de nombres de distritos y creación de un modelo de datos optimizado para grandes volúmenes de información.
 
 ---
 
-### 4. Visualizaciones Clave
-* **Mapa de Calor:** Distribución del consumo por zonas geográficas para identificar focos de demanda.
-* **Gráfico de Líneas:** Evolución mensual del consumo para detectar estacionalidad y tendencias a largo plazo.
-* **Treemap:** Desglose del consumo por tipo de cliente (Residencial, Comercial, Industrial).
+### 3. Hallazgos Clave (Resumen Enero - Junio 2025)
+Tras el procesamiento de la data, se obtuvieron los siguientes resultados:
+
+* **Crecimiento de la Demanda:** Se registró una variación positiva del **8.39%** en el consumo respecto al inicio del periodo.
+* **Métricas Globales:** * **Demanda Eléctrica:** 7,774.00 millones de KWH.
+    * **Recaudación Total:** S/ 58.09 millones de soles.
+* **Análisis Geográfico:**
+    * La provincia de **Trujillo** es el foco principal, representando el **42.13%** del consumo total.
+    * El distrito de **Trujillo Centro** destaca individualmente, acumulando el **20.23%** del consumo de la provincia.
+* **Ley de Pareto:** Se identificó que las provincias de **Trujillo, Santa, Cajamarca, Huaraz, Ascope y Pacasmayo** componen la mayor parte de la demanda de KWH.
 
 ---
 
-### 5. Conclusiones
-El dashboard permite visualizar de manera rápida qué sectores presentan picos de demanda inusuales, facilitando la planificación de mantenimiento preventivo y la creación de estrategias de ahorro energético más efectivas.
+### 4. Herramientas Utilizadas
+* **Power BI Desktop:** Para el modelado y visualización.
+* **DAX:** Medidas para cálculo de variaciones porcentuales y acumulados de recaudación.
+* **Análisis Predictivo:** Uso de tendencias mensuales para proyecciones de demanda futura.
 
 ---
-_Link de descarga https://drive.google.com/file/d/1UHu9LNRpiwS9V94Eyc2eEmllf22EjU5l/view?usp=sharing ._
+
+### 5. Conclusiones y Acciones
+El dashboard funciona como una herramienta de toma de decisiones para:
+1. Anticipar la carga en provincias críticas según el modelo de Pareto.
+2. Evaluar acciones comerciales en distritos de baja recaudación pero alto consumo.
+3. Pronosticar la demanda de los próximos meses basándose en el comportamiento del primer semestre de 2025.
+
+---
+🔗 **[Descargar archivo .PBIX de este proyecto](https://drive.google.com/file/d/1UHu9LNRpiwS9V94Eyc2eEmllf22EjU5l/view?usp=sharing)**
