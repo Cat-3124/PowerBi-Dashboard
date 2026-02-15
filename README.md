@@ -1,2 +1,6 @@
 # PowerBi-Dashboard
 Portafolio de mis proyectos 
+
+📊 Dashboard de Consumo Energético - Enosa
+Este proyecto analiza el consumo energético de clientes. Debido al tamaño del archivo (112 MB), puedes descargarlo directamente aquí:
+🔗 Descargar archivo .pbix desde Google Drive
