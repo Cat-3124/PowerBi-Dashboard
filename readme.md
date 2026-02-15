@@ -19,4 +19,9 @@ Herramientas: Power BI Desktop, DAX, Limpieza de datos.
 
 Descarga:🔗 https://drive.google.com/file/d/1UHu9LNRpiwS9V94Eyc2eEmllf22EjU5l/view?usp=sharing desde Google Drive (112 MB)
 ----------------------------------------------------------------------------------------------------------
-#📊 Dashborard de - 
+📩 Contacto
+Muchas gracias por tu tiempo. Si tienes alguna sugerencia o quieres conectar, ¡no dudes en escribirme!
+
+[https://www.linkedin.com/in/anthony-javier-chiquian-rivera-2019a525b/]
+
+[Anthonyjchiquianrivera2@gmail.com] 
