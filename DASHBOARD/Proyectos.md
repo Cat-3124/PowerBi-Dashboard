@@ -20,7 +20,7 @@ Este panel de control interactivo ha sido diseñado para analizar y visualizar l
 ### 📖 Documentación Detallada
 Para comprender a fondo la metodología, el proceso de limpieza de datos y los insights descubiertos, por favor revisa el archivo técnico:
 
-📂 **[Ir a la carpeta de Explicaciones](../Explicaciones/ConsumoEnergéticoEnosa(Distriluz).md)**
+📂 **[Ir a la carpeta de Explicaciones](../Explicaciones/Consumo_Energético_Enosa_(Distriluz)_.md)**
 *(Haciendo clic arriba irás directo al detalle del proyecto)*
 
 ---
